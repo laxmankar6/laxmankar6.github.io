@@ -3,80 +3,96 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Laxman Kumar Kar | DevOps Portfolio</title>
+<title>Laxman Kumar Kar | DevOps Engineer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 
 <style>
-body {
+* {
     margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background: #f4f6f9;
-    color: #333;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-header {
-    background: linear-gradient(135deg, #1f4037, #99f2c8);
+body {
+    background: linear-gradient(135deg, #141e30, #243b55);
     color: white;
+}
+
+/* Header */
+header {
     text-align: center;
-    padding: 50px 20px;
+    padding: 60px 20px;
 }
 
 header h1 {
-    margin: 0;
-    font-size: 34px;
+    font-size: 38px;
 }
 
 header p {
     margin-top: 10px;
     font-size: 18px;
+    opacity: 0.8;
 }
 
+/* Container */
 .container {
     max-width: 1000px;
     margin: auto;
     padding: 20px;
 }
 
-.section {
-    margin-bottom: 30px;
-}
-
-.section h2 {
-    border-left: 6px solid #1f4037;
-    padding-left: 10px;
-    margin-bottom: 15px;
-}
-
+/* Glass Card */
 .card {
-    background: white;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
     padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    transition: 0.3s;
 }
 
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Section Title */
+h2 {
+    margin-bottom: 15px;
+    color: #00c6ff;
+}
+
+/* List */
 ul {
     padding-left: 20px;
 }
 
-a {
-    color: #1f4037;
+/* Buttons */
+.button {
+    display: inline-block;
+    padding: 10px 18px;
+    background: #00c6ff;
+    color: black;
+    border-radius: 8px;
+    margin-top: 10px;
     text-decoration: none;
     font-weight: bold;
 }
 
-.button {
-    display: inline-block;
-    padding: 10px 15px;
-    background: #1f4037;
-    color: white;
-    border-radius: 6px;
-    margin-top: 10px;
+/* Links */
+a {
+    color: #00c6ff;
+    text-decoration: none;
 }
 
+/* Footer */
 footer {
     text-align: center;
-    padding: 15px;
-    background: #1f4037;
-    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    opacity: 0.7;
 }
 </style>
 </head>
@@ -85,90 +101,79 @@ footer {
 
 <header>
     <h1>Laxman Kumar Kar</h1>
-    <p>DevOps Engineer | AWS | CI/CD | Automation</p>
+    <p>🚀 DevOps Engineer | AWS | CI/CD | Automation</p>
 </header>
 
 <div class="container">
 
-<div class="section">
-<h2>About Me</h2>
 <div class="card">
+<h2>About Me</h2>
 <p>
-DevOps enthusiast with hands-on training in AWS, CI/CD pipelines, and Infrastructure as Code. 
-Strong foundation in Mathematics with a passion for automation and cloud technologies. 
-Focused on building scalable, efficient, and reliable deployment systems.
+DevOps enthusiast with hands-on training in AWS, CI/CD pipelines, and Infrastructure as Code.
+Strong mathematical background with a passion for automation and scalable systems.
+Currently focused on building real-world DevOps projects.
 </p>
 </div>
-</div>
 
-<div class="section">
-<h2>Technical Skills</h2>
 <div class="card">
+<h2>Technical Skills</h2>
 <ul>
-<li><strong>Cloud:</strong> AWS (EC2, S3, CodePipeline, CloudFormation)</li>
-<li><strong>CI/CD:</strong> Jenkins, GitHub Actions, AWS CodeBuild</li>
-<li><strong>Scripting:</strong> Python, Bash</li>
-<li><strong>Tools:</strong> Docker, Kubernetes</li>
-<li><strong>OS:</strong> Linux (Ubuntu), Windows Server</li>
-<li><strong>Other:</strong> Infrastructure as Code (IaC)</li>
+<li>AWS (EC2, S3, CodePipeline, CloudFormation)</li>
+<li>Jenkins, GitHub Actions, CI/CD Pipelines</li>
+<li>Docker & Kubernetes</li>
+<li>Linux (Ubuntu), Windows Server</li>
+<li>Python & Bash Scripting</li>
 </ul>
 </div>
-</div>
 
-<div class="section">
-<h2>Projects</h2>
 <div class="card">
+<h2>Projects</h2>
+
 <p><strong>DevOps Automation with AWS</strong></p>
 <ul>
-<li>Built CI/CD pipelines using AWS CodePipeline, CodeBuild & CodeDeploy</li>
-<li>Implemented Infrastructure as Code using CloudFormation</li>
+<li>Built CI/CD pipelines using AWS tools</li>
+<li>Used CloudFormation for Infrastructure as Code</li>
 <li>Reduced deployment time by 40%</li>
 </ul>
+
+<br>
 
 <p><strong>CI/CD Pipeline Setup</strong></p>
 <ul>
 <li>Designed pipeline using Jenkins, GitHub & AWS</li>
-<li>Automated build, test, and deployment processes</li>
+<li>Automated build, test & deployment</li>
 </ul>
-</div>
+
 </div>
 
-<div class="section">
-<h2>Training</h2>
 <div class="card">
+<h2>Training</h2>
 <p><strong>DevOps Training – Naresh IT, Hyderabad</strong></p>
 <ul>
-<li>Hands-on experience with AWS, Jenkins & CI/CD pipelines</li>
-<li>Automated deployment workflows using Git & shell scripting</li>
+<li>Hands-on with AWS, Jenkins & automation</li>
+<li>Built CI/CD workflows using Git</li>
 </ul>
 </div>
-</div>
 
-<div class="section">
+<div class="card">
 <h2>Education</h2>
-<div class="card">
-<p>Bachelor of Science (Mathematics)</p>
-<p>Dr. HK Mahatab College, Balasore (2019 – 2022)</p>
-</div>
+<p>B.Sc Mathematics</p>
+<p>Dr. HK Mahatab College (2019 – 2022)</p>
 </div>
 
-<div class="section">
+<div class="card">
 <h2>Contact</h2>
-<div class="card">
-<p>📧 Email: karlaxman319@gmail.com</p>
-<p>📞 Phone: 7609876684</p>
+<p>📧 karlaxman319@gmail.com</p>
+<p>📞 7609876684</p>
 
-<p>
 <a href="resume.pdf" target="_blank" class="button">📄 View Resume</a>
-</p>
 
-<p>
+<br><br>
+
 <a href="https://www.linkedin.com/in/laxman-kumar-kar-4a58a534a/" target="_blank">
 🔗 LinkedIn Profile
 </a>
-</p>
 
-</div>
 </div>
 
 </div>
