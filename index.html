@@ -1,33 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Laxman | Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laxman Kumar Kar | Portfolio</title>
+
     <style>
         body {
-            font-family: Arial;
+            font-family: 'Segoe UI', sans-serif;
             margin: 0;
-            background: #f4f4f4;
+            background: #f5f7fa;
+            color: #333;
         }
+
         header {
-            background: #333;
+            background: linear-gradient(to right, #2c3e50, #4ca1af);
             color: white;
-            padding: 20px;
+            padding: 40px 20px;
             text-align: center;
         }
-        section {
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
             padding: 20px;
         }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section h2 {
+            border-left: 5px solid #4ca1af;
+            padding-left: 10px;
+            margin-bottom: 10px;
+        }
+
         .card {
             background: white;
             padding: 15px;
-            margin: 10px 0;
             border-radius: 10px;
-            box-shadow: 0 0 10px #ccc;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.1);
         }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        a {
+            color: #4ca1af;
+            text-decoration: none;
+        }
+
         footer {
             text-align: center;
-            padding: 10px;
-            background: #333;
+            padding: 15px;
+            background: #2c3e50;
             color: white;
         }
     </style>
@@ -37,38 +75,72 @@
 
 <header>
     <h1>Laxman Kumar Kar</h1>
-    <p>Aspiring DevOps Engineer | Customer Support Experience</p>
+    <p>Aspiring DevOps Engineer | Customer Relationship Executive</p>
 </header>
 
-<section>
-    <div class="card">
+<div class="container">
+
+    <div class="section">
         <h2>About Me</h2>
-        <p>I have 9 months experience in Customer Relationship Executive role and now learning DevOps.</p>
+        <div class="card">
+            <p>
+                Mathematics graduate with 9 months of experience as a Customer Relationship Executive 
+                in the financial services sector. Skilled in customer coordination, data handling, and 
+                problem-solving. Currently focused on building a career in DevOps by learning tools like 
+                Linux, Git, and cloud technologies.
+            </p>
+        </div>
     </div>
 
-    <div class="card">
+    <div class="section">
         <h2>Skills</h2>
-        <ul>
-            <li>MS Excel</li>
-            <li>Customer Handling</li>
-            <li>Linux (Learning)</li>
-            <li>Git & GitHub</li>
-        </ul>
+        <div class="card">
+            <ul>
+                <li>MS Excel & Data Entry</li>
+                <li>Customer Relationship Management</li>
+                <li>Communication & Coordination</li>
+                <li>Basic Linux (Learning)</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </div>
     </div>
 
-    <div class="card">
+    <div class="section">
+        <h2>Experience</h2>
+        <div class="card">
+            <p><strong>Customer Relationship Executive</strong></p>
+            <p>Cholamandalam Investment and Finance Company</p>
+            <ul>
+                <li>Handled customer queries and provided support</li>
+                <li>Maintained data and MIS reports</li>
+                <li>Coordinated with internal teams for issue resolution</li>
+                <li>Ensured timely communication and service delivery</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
         <h2>Projects</h2>
-        <p>✔ My First Website (Hosted on GitHub Pages)</p>
+        <div class="card">
+            <p><strong>Personal Portfolio Website</strong></p>
+            <p>Developed and deployed a personal website using GitHub Pages.</p>
+        </div>
     </div>
 
-    <div class="card">
+    <div class="section">
         <h2>Contact</h2>
-        <p>Email: youremail@gmail.com</p>
+        <div class="card">
+            <p>Email: karlaxman319@gmail.com</p>
+            <p>
+                <a href="resume.pdf" target="_blank">Download Resume</a>
+            </p>
+        </div>
     </div>
-</section>
+
+</div>
 
 <footer>
-    <p>© 2026 Laxman</p>
+    <p>© 2026 Laxman Kumar Kar</p>
 </footer>
 
 </body>
